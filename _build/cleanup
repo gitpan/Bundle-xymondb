@@ -1,4 +1,0 @@
-do{ my $x = {
-       'Bundle-xymondb-*' => 1
-     };
-$x; }
