@@ -12,12 +12,7 @@ use Data::Dumper;
 use CGI::FormBuilder;
 use HTML::HTMLDoc;
 
-use Tree::Simple;
-use Tree::Simple::View::DHTML;
-
-use GraphViz::Data::Grapher;
-
-use base 'DBIx::Class::Schema';
+use DBIx::Class;
 
 use warnings;
 use strict;
@@ -28,11 +23,11 @@ Bundle::xymondb - Bundle of modules required for xymondb.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 =head1 SYNOPSIS
