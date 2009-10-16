@@ -1,21 +1,20 @@
 package Bundle::xymondb;
 
-use Template;
 
-use base 'CGI::Application';
-use CGI::Application::Plugin::AnyTemplate;
-use CGI::Application::Plugin::Session;
-use CGI::Application::Plugin::Cache::File;
+=head1 CONTENTS
 
-use CGI::Inspect;
-use Data::Dumper;
-use CGI::FormBuilder;
-use HTML::HTMLDoc;
-
-use DBIx::Class;
-
-use warnings;
-use strict;
+CGI::Application
+CGI::Application::Plugin::AnyTemplate
+CGI::Application::Plugin::Session
+CGI::Application::Plugin::Cache::File
+Template
+CGI::Inspect
+Data::Dumper
+CGI::FormBuilder
+HTML::HTMLDoc
+Tree::Simple
+Tree::Simple::View::DHTML
+DBIx::Class
 
 =head1 NAME
 
@@ -23,11 +22,11 @@ Bundle::xymondb - Bundle of modules required for xymondb.
 
 =head1 VERSION
 
-Version 0.03
+Version 0.04
 
 =cut
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 
 =head1 SYNOPSIS
